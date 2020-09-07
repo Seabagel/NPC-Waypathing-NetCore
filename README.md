@@ -1,6 +1,12 @@
 # NPC-Waypathing-NetCore
  2D movement using 1 Dimensional pathfinding
 
+### How to run:
+- Install .NetCore 3.1 SDK from [dotnet.Microsoft.com](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+- clone repository
+- open directory in cmd or psh
+- dotnet run
+
 ## Idea
 - Instead of using pathfinding, use direction and speed until the object's (x,y) equals the goal point
 
