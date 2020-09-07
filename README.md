@@ -3,6 +3,8 @@
 
 ## Idea
 - Instead of using pathfinding, use direction and speed until the object's (x,y) equals the goal point
+
+### To-do:
 - [ ] Create an Waypath class that keeps a list of points
 - [ ] Add Direction enum, int MovementSpeed, enum nextWaypoint <vector2>, into Waypath class
 - [ ] in Waypath, OnCollision() = On collision with a point, do one of 3 things:
