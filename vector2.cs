@@ -10,5 +10,11 @@ namespace NPC_Waypathing_NetCore
             this.x = x;
             this.y = y;
         }
+
+        public bool IsEqual(int x, int y)
+        {
+            if (x.Equals(this.x) && y.Equals(this.y)) return true;
+            else return false;
+        }
     }
 }

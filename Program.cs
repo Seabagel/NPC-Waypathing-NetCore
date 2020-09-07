@@ -1,4 +1,6 @@
-﻿using System;
+﻿using System.Threading;
+using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace NPC_Waypathing_NetCore
 {
@@ -30,19 +32,26 @@ namespace NPC_Waypathing_NetCore
 
             CollPoints[1, 4] = new PointTransfer(1, 4);
 
-            for (int i = 0; i < worldSize.y; i++)
+            bool l = true;
+            while (l)
             {
-                for (int j = 0; j < worldSize.x; j++)
+                Console.Clear();
+                for (int i = 0; i < worldSize.y; i++)
                 {
-                    if (CollPoints[j, i].type.Equals(TypePoint.Junction)) Console.Write($" T");
-                    else if (CollPoints[j, i].type.Equals(TypePoint.Transfer)) Console.Write($" >");
-                    else if (CollPoints[j, i].type.Equals(TypePoint.Enterance)) Console.Write($" E");
-                    else Console.Write($" x");
+                    for (int j = 0; j < worldSize.x; j++)
+                    {
+                        if (CollPoints[j, i].type.Equals(TypePoint.Junction)) Console.Write($" T");
+                        else if (CollPoints[j, i].type.Equals(TypePoint.Transfer)) Console.Write($" >");
+                        else if (CollPoints[j, i].type.Equals(TypePoint.Enterance)) Console.Write($" E");
+                        else Console.Write($" x");
+                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
+                if (Console.ReadKey().Key.Equals(ConsoleKey.Enter)) l = false;
+                Thread.Sleep(1000 / 60);
             }
 
-            Console.WriteLine();
+
         }
     }
 }
