@@ -1,0 +1,13 @@
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\bin\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.exe
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\bin\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.deps.json
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\bin\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.runtimeconfig.json
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\bin\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.runtimeconfig.dev.json
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\bin\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.dll
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\bin\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.pdb
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.csprojAssemblyReference.cache
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.AssemblyInfoInputs.cache
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.AssemblyInfo.cs
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.csproj.CoreCompileInputs.cache
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.dll
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.pdb
+C:\Users\bilder\Documents\GitHub\NPC-Waypathing-NetCore\obj\Debug\netcoreapp3.1\NPC-Waypathing-NetCore.genruntimeconfig.cache
