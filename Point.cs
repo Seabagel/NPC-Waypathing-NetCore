@@ -1,13 +1,18 @@
 namespace NPC_Waypathing_NetCore
 {
-    struct Point
+    enum TypePoint
     {
-        public vector2 vector { get; set; }
-        public bool isPoint { get; set; }
-        public Point(int x, int y)
-        {
-            vector = new vector2(x, y);
-            isPoint = false;
-        }
+        Junction,
+        Transfer,
+        Enterance,
+        empty
+    }
+
+    interface IPoint
+    {
+
+        vector2 vector { get; set; }
+        TypePoint type { get; set; }
+
     }
 }
