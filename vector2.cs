@@ -1,8 +1,14 @@
 namespace NPC_Waypathing_NetCore
 {
-    interface vector2
+    struct vector2
     {
-        int x { get; set; }
-        int y { get; set; }
+        public int x { get; set; }
+        public int y { get; set; }
+
+        public vector2(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
